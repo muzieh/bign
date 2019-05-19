@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\muzieh\.Rider2018.3\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\muzieh\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="R:\Cache\_bign.-1379535798.RD.00" t="ExcludeRecursive" />
+    <e p="R:\Repos\bign" t="IncludeFlat">
+      <e p="node_modules" t="ExcludeRecursive">
+        <e p="chai" t="IncludeRecursive" />
+        <e p="mocha" t="IncludeRecursive" />
+        <e p="npm-watch" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

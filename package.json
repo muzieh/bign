@@ -1,0 +1,23 @@
+{
+  "name": "bign",
+  "version": "1.0.0",
+  "description": "library handles big integer numbers arithmetic using string representation",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "watch": {
+    "test": "{src,test}/*.js"
+  },
+  "scripts": {
+    "test": "mocha",
+    "watch": "npm-watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "npm-watch": "^0.6.0"
+  }
+}
