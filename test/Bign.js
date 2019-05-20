@@ -49,10 +49,24 @@ describe('BigN', function () {
 			const num1 = new BigN(10);
 			(num1.equals(num1)).should.be.true;
 		});
+		
 		it('same value different instance should be equal', function() {
-			
+			const num1 = new BigN(10);
+			const num2 = new BigN(10);
+			(num1.equals(num2)).should.be.true;
+
 		});
-		it('different value should not be equal', function() {
+		
+		it('different value same length and sign should not be equal', function() {
+			const num1 = new BigN('10');
+			const num2 = new BigN(9);
+			(num1.equals(num2)).should.be.false;
+		});
+		
+		it('same abs value should not be equal', function() {
+			const num1 = new BigN('10');
+			const num2 = new BigN(-10);
+			(num1.equals(num2)).should.be.false;
 		});
 	})
 	

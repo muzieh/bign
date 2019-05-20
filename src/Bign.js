@@ -31,7 +31,18 @@ BigN.zero = function() {
 }; 
 
 BigN.prototype.equals = function(other) {
-	throw new Error("not implemented") 
+    if(this._value.length !== other._value.length)
+        return false;
+    
+    if(this._isNegative !== other._isNegative)
+        return false;
+    
+    for(let i=0; i<this._value.length; i++)
+    {
+       if(this._value[i] !== other._value[i]) 
+           return false;
+    }
+    return true;
 };
 
 BigN.prototype.toString = function() {
